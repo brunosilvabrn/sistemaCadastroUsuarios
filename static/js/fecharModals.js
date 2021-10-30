@@ -1,0 +1,3 @@
+function fecharModalCadastrar() {
+	$("#modalCadastro").remove();
+}
