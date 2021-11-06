@@ -20,7 +20,7 @@ Linux: Lamp.
 
 ### 🔧 Instalação (local)
 
-Importa as tabelas do banco de dados **cadastrousuarios.sql** para o Mysql.
+Importar as tabelas do banco de dados **cadastrousuarios.sql** para o Mysql.
 
 Defina as credenciais de acesso ao banco de dados.
 <br>
@@ -45,9 +45,15 @@ Altere a constante **const** para a url onde seu projeto está instalado.
     $GLOBALS['URL_PROJECT'] = "http://seudominio.com/nomedapastadoprojeto/";
 ```
 
+Usuário e senha para login: <br>
+Usuário: **admin** <br>
+Senha: **123456**
+
 Pronto agora e só acessar a url do sistema e começar a usar.
 
 ## 📦 Desenvolvimento
+
+Template usado https://github.com/brunosilvabrn/painelCadastroJquery
 
 Sistema desenvolvido com PHP e JavaScript/ajax , Sistema dinâmico de cadastro de usuarios **(não necessario reflesh na página para cadastrar, editar ou excluir usuários cadastrados).**
 
